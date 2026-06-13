@@ -37,6 +37,36 @@ This application automates the process by analyzing ticket text and generating p
 
 ---
 
+## Screenshots
+
+### Home Page
+
+![Home Page](screenshots/home.png)
+
+### Prediction Results
+
+![Prediction Results](screenshots/prediction.png)
+
+### Dataset Analytics
+
+![Analytics](screenshots/analytics.png)
+
+
+## Installation
+
+1. Clone Repository
+
+git clone https://github.com/shaikkarishma23175-svg/FUTURE_ML_02.git
+
+2. Install Dependencies
+
+pip install -r requirements.txt
+
+3. Run Application
+
+streamlit run app.py
+
+
 ## Technologies Used
 
 - Python
