@@ -1,39 +1,105 @@
-# FUTURE_ML_02
+# AI Support Ticket Classification System
 
-## AI Support Ticket Classification System
+## Project Overview
 
-This project is developed as part of the Future Interns Machine Learning Internship.
+This project was developed as part of the Future Interns Machine Learning Internship.
 
-The system uses Natural Language Processing (NLP) and Machine Learning techniques to automatically analyze customer support tickets and predict:
+The AI Support Ticket Classification System uses Natural Language Processing (NLP) and Machine Learning techniques to automatically analyze customer support tickets and predict:
 
 - Ticket Category
 - Ticket Priority
 - Customer Sentiment
 - Automated Response Suggestions
 
----
-
-## Project Overview
-
-Customer support teams receive thousands of tickets daily. Manually categorizing and prioritizing tickets can be time-consuming.
-
-This application automates the process by analyzing ticket text and generating predictions instantly.
+The application is built using Streamlit and provides an interactive interface for support ticket analysis.
 
 ---
 
 ## Features
 
-✅ Support Ticket Classification
+- Automatic Ticket Category Classification
+- Ticket Priority Prediction
+- Customer Sentiment Analysis
+- Automated Response Generation
+- Interactive Streamlit Dashboard
+- Dataset Analytics and Visualization
 
-✅ Priority Prediction
+---
 
-✅ Sentiment Analysis
+## Technologies Used
 
-✅ Automated Response Suggestions
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- NLTK
+- TextBlob
+- Streamlit
+- Matplotlib
 
-✅ Interactive Streamlit Web Application
+---
 
-✅ Dataset Analytics Dashboard
+## Dataset
+
+The project uses a customer support ticket dataset containing 8469 support tickets.
+
+The dataset includes:
+
+- Ticket Description
+- Ticket Type
+- Ticket Priority
+- Customer Information
+- Resolution Details
+- Customer Satisfaction Rating
+
+---
+
+## Project Structure
+
+```text
+FUTURE_ML_02/
+│
+├── app.py
+├── support_tickets.csv
+├── requirements.txt
+├── README.md
+├── Task_2_of_Future_Interns.ipynb
+│
+├── models/
+│   ├── category_model.pkl
+│   └── vectorizer.pkl
+│
+└── screenshots/
+    ├── home.png
+    ├── prediction.png
+    └── analytics.png
+```
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/shaikkarishma23175-svg/FUTURE_ML_02.git
+```
+
+Move into the project directory:
+
+```bash
+cd FUTURE_ML_02
+```
+
+Install required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the Streamlit application:
+
+```bash
+streamlit run app.py
+```
 
 ---
 
@@ -49,65 +115,33 @@ This application automates the process by analyzing ticket text and generating p
 
 ### Dataset Analytics
 
-![Analytics](screenshots/analytics.png)
-
-
-## Installation
-
-1. Clone Repository
-
-git clone https://github.com/shaikkarishma23175-svg/FUTURE_ML_02.git
-
-2. Install Dependencies
-
-pip install -r requirements.txt
-
-3. Run Application
-
-streamlit run app.py
-
-
-## Technologies Used
-
-- Python
-- Pandas
-- NumPy
-- Scikit-Learn
-- NLP (TF-IDF Vectorization)
-- TextBlob
-- Streamlit
-- Joblib
+![Analytics Dashboard](screenshots/analytics.png)
 
 ---
 
-## Dataset
+## Results
 
-Dataset: Customer Support Tickets Dataset
+The system successfully classifies support tickets using machine learning and NLP techniques.
 
-The dataset contains customer support tickets with information such as:
+It provides:
 
-- Ticket Type
-- Ticket Priority
-- Ticket Description
-- Customer Information
-- Resolution Details
+- Ticket Category Prediction
+- Ticket Priority Prediction
+- Sentiment Analysis
+- Automated Response Suggestions
+
+through an easy-to-use Streamlit web interface.
 
 ---
 
-## Project Structure
+## Author
 
-```text
-FUTURE_ML_02/
-│
-├── models/
-│   ├── category_model.pkl
-│   ├── priority_model.pkl
-│   ├── vectorizer.pkl
-│
-├── screenshots/
-│
-├── app.py
-├── support_tickets.csv
-├── requirements.txt
-├── README.md
-└── Task_2_of_Future_Interns.ipynb
+Karishma Shaik
+
+---
+
+## Internship Details
+
+Future Interns – Machine Learning Internship
+
+Task 2: AI Support Ticket Classification System
